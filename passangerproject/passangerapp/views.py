@@ -32,4 +32,4 @@ def deletepassanger(request):
 def showpassanger(request):
     qs=Passanger.objects.all()
     return render(request,'show.html',{'passangers':qs})
-    print("lokesh & sanju")
+    print("lokesh & sanju Gautam")
